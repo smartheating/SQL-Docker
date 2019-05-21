@@ -9,7 +9,7 @@ services:
     container_name: mysql
     hostname: mysql
     volumes:
-      - C:/Users/stefa/Documents/Docker/MySQL:/var/lib/mysql
+      - {REPLACE THIS WITH YOUR LOCAL PATH}:/var/lib/mysql
     environment:
       - PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
       - GOSU_VERSION=1.7
