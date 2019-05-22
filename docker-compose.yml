@@ -1,7 +1,7 @@
 version: '3.7'
 
 services: 
-  jenkins-service:
+  mysql-service:
     image: mysql
     ports:
       - 9003:3306

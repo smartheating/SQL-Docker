@@ -1,4 +1,4 @@
 echo "Removing current container..."
-docker container rm -f serviceregistration
+docker container rm -f mysql
 echo "Building new image and starting container..."
 docker-compose up
